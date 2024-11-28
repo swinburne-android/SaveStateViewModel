@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        Log.e("tag","inside onCreate")
+        Log.e("tag","inside onCreate") //e for error, d for debug, i for info, w for warning
 
         // check model
         findViewById<TextView>(R.id.textView).text = model.nextRandom().toString()
